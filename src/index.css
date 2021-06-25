@@ -1,13 +1,61 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans&family=Raleway&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #00ffff 0%, #3399ff 100%);
+}
+
+.main-div {
+  width: 30vw;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  font-size: 32px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  margin-bottom: 50px;
+  color: #2c3148;
+}
+
+.main-heading {
+  display: flex;
+  margin-top: 30px;
+  padding: 20px 0 20px 20px;
+  background: #f1f4ff;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+}
+
+.answers {
+  background-color: lightgoldenrodyellow;
+  margin-top: 10px;
+  padding: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: ;
+}
+
+.sign {
+  padding-right: 10px;
+}
+
+.sign:hover {
+  cursor: pointer;
 }
