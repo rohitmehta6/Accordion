@@ -12,7 +12,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom, #00ffff 0%, #3399ff 100%);
+  /* background: linear-gradient(to bottom, #00ffff 0%, #3399ff 100%); */
+  background-color: blueviolet;
 }
 
 .main-div {
@@ -49,7 +50,6 @@ h1 {
   margin-top: 10px;
   padding: 20px;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: ;
 }
 
 .sign {
